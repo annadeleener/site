@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html ",
+    "currentPage": "index.html",
     "versionFirst": "3.6.4",
     "versionPublish": "3.12.1",
     "name": "My Site",
@@ -26,7 +26,7 @@
     "uniqCompNum": 1
   },
   "pages": {
-    "index.html ": {
+    "index.html": {
       "settings": {
         "main": true,
         "title": "",
