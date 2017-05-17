@@ -1,8 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+
+
+
+
 
 
 
@@ -421,6 +427,8 @@ h6,
 }
 #menu-0 .navbar-caption {
   color: #ffffff;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
 }
 #menu-0 .navbar-toggler {
   color: #000000;
@@ -471,7 +479,7 @@ h6,
 }
 #menu-0 .link[aria-expanded="true"],
 #menu-0 .dropdown-item[aria-expanded="true"] {
-  color: #0a23fc!important;
+  color: #ffffff!important;
 }
 #menu-0.mbr-navbar--stuck .mbr-navbar__section {
   background: #2c2c2c;
@@ -495,6 +503,25 @@ h6,
 }
 #header1-0 .mbr-section-title P {
   color: #000000;
+}
+#content1-e P {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 13px;
+}
+#content1-f P {
+  font-size: 13px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+#content1-g DIV {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 13px;
+}
+#content1-g P {
+  font-size: 13px;
+}
+#content1-h P {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 13px;
 }
 #index-contacts4-0 P {
   color: #000000;

@@ -23,7 +23,7 @@
         "isRtl": false
       }
     },
-    "uniqCompNum": 12
+    "uniqCompNum": 18
   },
   "pages": {
     "index.html": {
@@ -42,7 +42,10 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'PT Sans Narrow', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "font-size": "14px"
             },
             ".navbar-toggler": {
               "color": "#000000"
@@ -79,7 +82,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#0a23fc!important"
+              "color": "#ffffff!important"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#2c2c2c"
@@ -103,7 +106,7 @@
             "transparent": false,
             "sticky": false,
             "logo": false,
-            "showBrand": false,
+            "showBrand": true,
             "collapsed": true,
             "hideButtons": true
           },
@@ -121,8 +124,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Anna De Leener</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
@@ -133,7 +136,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -168,7 +171,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/img-2000x1464.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/img-1-2000x1464.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -177,13 +180,13 @@
             "bgVideoRadio": false,
             "overlay": false,
             "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "center",
+            "overlayColor": "#cccccc",
+            "contentAlign": "right",
             "showTitle": true,
-            "showText": true,
+            "showText": false,
             "showButtons": false
           },
-          "title": "<p><span style=\"font-weight: normal;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; anna de leener</span><br><span style=\"font-weight: normal;\">&nbsp;</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style=\"font-weight: normal;\">student</span> <span style=\"font-weight: normal;\">LUCA school of arts</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>",
+          "title": "",
           "text": "",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
         },
@@ -266,6 +269,26 @@
           "_tags": [
             "Theme"
           ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "font-family": "'PT Sans Narrow', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "font-size": "13px"
+            }
+          },
+          "_anchor": "content1-e",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "7",
+            "bgColor": "#fff"
+          },
+          "text": "<p>tabels &nbsp;</p><p>etches printed on zerkal 450gr paper&nbsp;</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
           "_name": "image1",
           "_anchor": "image1-b",
           "media": {
@@ -286,6 +309,26 @@
             "showText": false
           },
           "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "font-size": "13px",
+              "font-family": "'PT Sans Narrow', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700"
+            }
+          },
+          "_anchor": "content1-f",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>adam and eve&nbsp;</p><p>embroidered on on a cotton robe&nbsp;</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
         },
         {
           "_inherit": "gallery1",
@@ -630,6 +673,29 @@
           "_tags": [
             "Theme"
           ],
+          "_name": "content1",
+          "_styles": {
+            "DIV": {
+              "font-family": "'PT Sans Narrow', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "font-size": "13px"
+            },
+            "P": {
+              "font-size": "13px"
+            }
+          },
+          "_anchor": "content1-g",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>studies on an egg that isn't an egg&nbsp;</p><p>pencel on A6 moleskine paper</p><p><br></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
           "_name": "slider3",
           "_params": {
             "autoplay": false,
@@ -688,57 +754,24 @@
           "articleLayout": false
         },
         {
-          "_inherit": "gallery1",
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery4",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "images": [
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/scan-copy-4-kopie-2000x1945-800x778.png",
-                "image": "@PROJECT_PATH@/assets/images/scan-copy-4-kopie-2000x1945.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/scan-copy-4-kopie-3-2000x1832-800x732.png",
-                "image": "@PROJECT_PATH@/assets/images/scan-copy-4-kopie-3-2000x1832.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/scan-copy-4-kopie-2-2000x2006-800x802.png",
-                "image": "@PROJECT_PATH@/assets/images/scan-copy-4-kopie-2-2000x2006.png",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ],
-            "spacing": "3",
-            "showText": false,
-            "filter": false,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "font-family": "'PT Sans Narrow', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "font-size": "13px"
+            }
           },
-          "_anchor": "gallery4-9",
-          "articleLayout": false,
-          "allItem": "All"
+          "_anchor": "content1-h",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>window&nbsp;</p><p>blue printed lino on silk paper&nbsp;</p>"
         },
         {
           "_name": "contacts4",
