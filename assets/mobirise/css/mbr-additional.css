@@ -1,9 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+
+
+
+
+
+
+
 
 
 
@@ -504,7 +512,23 @@ h6,
 #header1-0 .mbr-section-title P {
   color: #000000;
 }
+#msg-box5-j SPAN {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 30px;
+}
+#msg-box5-j P {
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: left;
+}
 #content1-e P {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 13px;
+}
+#content1-v P {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 13px;
+}
+#content1-15 P {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 13px;
 }
@@ -523,14 +547,33 @@ h6,
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 13px;
 }
+#content1-z DIV {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 13px;
+}
+#content1-z P {
+  font-size: 13px;
+}
+#content1-x DIV {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 13px;
+}
+#content1-x P {
+  font-size: 13px;
+}
+#content1-13 P {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 13px;
+}
 #index-contacts4-0 P {
-  color: #000000;
+  color: #ffffff;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 #index-contacts4-0 STRONG {
   color: #ffffff;
 }
 #index-contacts4-0 SPAN {
   font-size: 20px;
-  color: #000000;
-  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
